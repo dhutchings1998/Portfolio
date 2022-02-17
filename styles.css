@@ -1,0 +1,47 @@
+/* Credit for misty effect: www.adrienbachmann.ch */
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+ body, html {
+	 font-family: 'Roboto';
+	 margin: 0;
+}
+#timeline {
+	width: 450px;
+	height: 806px;
+	margin-top: 50px;
+	margin-left: 15%;
+}
+#name {
+	 font-size: 100px;
+	 margin-top: 100px;
+	 margin-left: 15%;
+}
+#skillsContainer {
+	position: relative;
+	margin-left: 15%;
+	margin-top: 130px;
+}
+#code-editor {
+	width: 550px;
+	height: 366px;
+}
+#skills {
+	color: azure;
+	position: absolute;
+    top: 50px;
+    left: 50px;
+	font-family: monospace;
+}
+.navbar-brand{
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.row{
+	margin-bottom: 100px;
+}
+
+#projects {
+	width: 60%;
+}
