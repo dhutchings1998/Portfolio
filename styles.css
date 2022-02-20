@@ -56,28 +56,31 @@ a:hover {
 
 @media only screen and (min-width: 375px) and (max-width: 754px){
 	#name {
-		font-size: 100px;
-		margin-left: 5%;
+		font-size: 70px;
+		margin-left: 0;
+		margin-top: 50px;
     }
 
    #timeline {
-	   width: 500px;
-	   height: 909px;
+	   width: 350px;
+	   height: 636px;
 	   margin-left: 0;
-	   margin-right: 5%;
+	   margin-top: 40px;
 	}
 
 	#code-editor {
-		width: 450px;
-		height: 300px;
+		width: 350px;
+		height: 233px;
 	}
 	#skillsContainer {
-		margin-left: 5%;
-		margin-top: 100px;
+		margin-left: 0;
+		margin-top: 50px;
 	}
 
 	#skills {
-		font-size: 14px;
+		font-size: 12px;
+		top: 30px;
+    	left: 30px;
 	}
 
 	#projects {
@@ -95,6 +98,10 @@ a:hover {
 
 	.contactInfoText{
 		font-size: 20px;
+	}
+
+	.row{
+		margin-bottom: 50px;
 	}
 }
 
