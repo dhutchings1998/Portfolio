@@ -25,7 +25,7 @@
 	height: 366px;
 }
 #skills {
-	color: azure;
+	color: rgb(251, 253, 253);
 	position: absolute;
     top: 50px;
     left: 50px;
@@ -50,4 +50,37 @@ a:hover {
 
 #projects {
 	width: 87%;
+}
+
+@media (min-width:200px) and (max-width: 800px) {
+	#name {
+		font-size: 150px;
+		margin-left: 0;
+    }
+
+   #timeline {
+	   width: 650px;
+	   height: 1181px;
+	   margin-left: 0;
+	}
+
+	#code-editor {
+		width: 700px;
+		height: 466px;
+	}
+	#skillsContainer {
+		margin-left: 0;
+	}
+
+	#skills {
+		font-size: 23px;
+	}
+
+	#projects {
+		width: 100%;
+	}
+
+	.navbar-brand{
+		font-size: 30px !important;
+	}
 }
