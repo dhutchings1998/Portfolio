@@ -3,21 +3,23 @@
  body, html {
 	 font-family: 'Roboto';
 	 margin: 0;
+	 width: 100%;
 }
+
 #timeline {
 	width: 450px;
 	height: 806px;
 	margin-top: 50px;
-	margin-left: 15%;
+	margin-left: 10%;
 }
 #name {
 	 font-size: 100px;
 	 margin-top: 100px;
-	 margin-left: 15%;
+	 margin-left: 10%;
 }
 #skillsContainer {
 	position: relative;
-	margin-left: 15%;
+	margin-left: 10%;
 	margin-top: 130px;
 }
 #code-editor {
@@ -52,16 +54,102 @@ a:hover {
 	width: 87%;
 }
 
-@media (min-width:200px) and (max-width: 800px) {
+@media only screen and (min-width: 375px) and (max-width: 754px){
 	#name {
-		font-size: 150px;
-		margin-left: 0;
+		font-size: 100px;
+		margin-left: 5%;
     }
 
    #timeline {
-	   width: 650px;
-	   height: 1181px;
+	   width: 500px;
+	   height: 909px;
 	   margin-left: 0;
+	   margin-right: 5%;
+	}
+
+	#code-editor {
+		width: 450px;
+		height: 300px;
+	}
+	#skillsContainer {
+		margin-left: 5%;
+		margin-top: 100px;
+	}
+
+	#skills {
+		font-size: 14px;
+	}
+
+	#projects {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.navbar-brand{
+		font-size: 20px !important;
+	}
+
+	#contactInfoTitle{
+		font-size: 30px;
+	}
+
+	.contactInfoText{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 755px) and (max-width: 991px) {
+	#name {
+		font-size: 125px;
+		margin-left: 5%;
+    }
+
+   #timeline {
+	   width: 550px;
+	   height: 1000px;
+	   margin-left: 5%;
+	}
+
+	#code-editor {
+		width: 550px;
+		height: 366px;
+	}
+	#skillsContainer {
+		margin-left: 5%;
+		margin-top: 100px;
+	}
+
+	#skills {
+		font-size: 17px;
+	}
+
+	#projects {
+		width: 100%;
+	}
+
+	.navbar-brand{
+		font-size: 30px !important;
+	}
+
+	#contactInfoTitle{
+		font-size: 30px;
+	}
+
+	.contactInfoText{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	#name {
+		font-size: 150px;
+		margin-left: 15%;
+    }
+
+   #timeline {
+	   width: 550px;
+	   height: 1000px;
+	   margin-left: 15%;
 	}
 
 	#code-editor {
@@ -69,7 +157,7 @@ a:hover {
 		height: 466px;
 	}
 	#skillsContainer {
-		margin-left: 0;
+		margin-left: 15%;
 	}
 
 	#skills {
@@ -82,5 +170,13 @@ a:hover {
 
 	.navbar-brand{
 		font-size: 30px !important;
+	}
+
+	#contactInfoTitle{
+		font-size: 30px;
+	}
+
+	.contactInfoText{
+		font-size: 20px;
 	}
 }
