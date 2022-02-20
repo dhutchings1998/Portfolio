@@ -1,5 +1,5 @@
 var i = 0;
-var txt = "[1] print(skillset) * 'Python'*'R'*'SQL'*'JavaScript'*'C++'*'Java'"; /* The text */
+var txt = "[1] print(skills) *'Python'*'R'*'SQL'*'JavaScript'*'C++'*'Java'"; /* The text */
 var speed = 85; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {

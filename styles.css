@@ -34,8 +34,14 @@
 .navbar-brand{
 	font-weight: bold;
 }
+
+a{
+	color:black !important;
+	text-decoration: none !important;
+}
+
 a:hover {
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 .row{
@@ -43,5 +49,5 @@ a:hover {
 }
 
 #projects {
-	width: 60%;
+	width: 87%;
 }
