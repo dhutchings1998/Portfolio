@@ -1,238 +1,284 @@
-/* Credit for misty effect: www.adrienbachmann.ch */
 @import url(https://fonts.googleapis.com/css?family=Roboto:700);
- body, html {
+body, html {
 	 font-family: 'Roboto';
 	 margin: 0;
 	 width: 100%;
 }
-
 #timeline {
 	width: 450px;
 	height: 806px;
-	margin-top: 50px;
-	margin-left: 10%;
+	margin-top: 70px;
+	margin-left: 0;
 }
 #name {
-	 font-size: 100px;
+	 font-size: 117px;
 	 margin-top: 100px;
 	 margin-left: 10%;
 }
 #skillsContainer {
 	position: relative;
 	margin-left: 10%;
-	margin-top: 130px;
+	margin-top: 115px;
 }
 #code-editor {
 	width: 550px;
 	height: 366px;
 }
 #skills {
-	color: rgb(251, 253, 253);
+	color: white;
 	position: absolute;
     top: 50px;
     left: 50px;
 	font-family: monospace;
 }
-.navbar-brand{
+.navigation-link{
 	font-weight: bold;
+	font-size: 22px;
 }
-
 a{
 	color:black !important;
 	text-decoration: none !important;
 }
-
 a:hover {
 	text-decoration: underline !important;
 }
-
 .row{
 	margin-bottom: 100px;
 }
-
 #projects {
 	width: 92%;
 }
+#linkedin {
+	color:rgb(74, 127, 240) !important;
+	text-decoration: underline !important;
+}
 
-@media only screen and (min-width: 280px) and (max-width: 434px){
-	#name {
-		font-size: 65px;
-		margin-top: 50px;
-		margin-left: 8%;
-    }
-
-   #timeline {
-	   width: 300px;
-	   height: 545px;
-	   margin-left: 5%;
-	   margin-top: 40px;
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	#timeline {
+		width: 550px;
+		height: 1000px;
+		margin-left: 0;
+		margin-top: 40px;
+		margin-right: 5%;
 	}
-
+	#name-div {
+		text-align: center;
+	}
+	#name {
+		 font-size: 125px;
+		 display: inline-block; 
+		 text-align: left;
+		 margin-top: 35px;
+		 margin-left: 0;
+	}
+	#skillsContainer {
+		position: relative;
+		text-align: center;
+		margin-top: 55px;
+		margin-left: 0;
+	}
+	#code-editor {
+		width: 575px;
+		height: 383px;
+	}
+	#skills {
+		position: absolute;
+		top: 50px;
+		left: 230px;
+		font-family: monospace;
+		display: inline-block; 
+		text-align: left;
+	}
+	#projects {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#timeline {
+		width: 550px;
+		height: 1000px;
+		margin-left: 0;
+		margin-right: 5%;
+		margin-top: 40px;
+	}
+	#name-div {
+		text-align: center;
+	}
+	#name {
+		 font-size: 125px;
+		 display: inline-block; 
+		 text-align: left;
+		 margin-top: 35px;
+		 margin-left: 0;
+	}
+	#skillsContainer {
+		position: relative;
+		text-align: center;
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	#code-editor {
+		width: 575px;
+		height: 383px;
+	}
+	#skills {
+		position: absolute;
+		top: 50px;
+		left: 110px;
+		font-family: monospace;
+		display: inline-block; 
+		text-align: left;
+	}
+	#projects {
+		width: 100%;
+	}
+	.row{
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	#timeline {
+		width: 450px;
+		height: 818px;
+		margin-left: 0;
+		margin-right: 5%;
+		margin-top: 40px;
+	}
+	#name-div {
+		text-align: center;
+	}
+	#name {
+		 font-size: 100px;
+		 display: inline-block; 
+		 text-align: left;
+		 margin-top: 35px;
+		 margin-left: 0;
+	}
+	#skillsContainer {
+		position: relative;
+		text-align: center;
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	#code-editor {
+		width: 450px;
+		height: 300px;
+	}
+	#skills {
+		position: absolute;
+		top: 40px;
+		left: 70px;
+		font-size: 14px;
+		font-family: monospace;
+		display: inline-block; 
+		text-align: left;
+	}
+	.navigation-link{
+		font-weight: bold;
+		font-size: 22px !important;
+	}
+	#projects {
+		width: 100%;
+	}
+	.row{
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+	#timeline {
+		width: 300px;
+		height: 545px;
+		margin-left: 0;
+		margin-right: 5%;
+		margin-top: 40px;
+	}
+	#name-div {
+		text-align: center;
+	}
+	#name {
+		 font-size: 65px;
+		 display: inline-block; 
+		 text-align: left;
+		 margin-top: 35px;
+		 margin-left: 0;
+	}
+	#skillsContainer {
+		position: relative;
+		text-align: center;
+		margin-top: 40px !important;
+		margin-left: 0;
+		width: 300px;
+		margin: auto;
+	}
 	#code-editor {
 		width: 300px;
 		height: 200px;
 	}
-
-	#skillsContainer {
-		margin-top: 50px;
-		margin-left: 8%;
-	}
-
 	#skills {
-		font-size: 10px;
+		position: absolute;
 		top: 25px;
-    	left: 30px;
+		left: 25px;
+		font-size: 10px;
+		font-family: monospace;
+		display: inline-block; 
+		text-align: left;
 	}
-
+	.navigation-link{
+		font-size: 18px !important;
+	}
 	#projects {
-		width: 88%;
-		margin-left: 8%;
+		width: 85%;
 	}
-
-	.navbar-brand{
-		font-size: 20px !important;
-	}
-
-	#contactInfoTitle{
-		font-size: 30px;
-	}
-
-	.contactInfoText{
-		font-size: 20px;
-	}
-
 	.row{
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
 }
-
-@media only screen and (min-width: 435px) and (max-width: 569px){
-	#name {
-		font-size: 75px;
-		margin-left: 10%;
-		margin-top: 50px;
-    }
-
-   #timeline {
-	   width: 350px;
-	   height: 636px;
-	   margin-left: 10%;
+@media only screen and (min-width: 250px) and (max-width: 299px) {
+	#timeline {
+		width: 250px;
+		height: 454px;
+		margin-left: 0;
+		margin-right: 5%;
 	}
-
-	#code-editor {
-		width: 350px;
-		height: 233px;
+	#name-div {
+		text-align: center;
+	}
+	#name {
+		 font-size: 45px;
+		 display: inline-block; 
+		 text-align: left;
+		 margin-top: 35px;
+		 margin-left: 0;
 	}
 	#skillsContainer {
-		margin-left: 10%;
-		margin-top: 75px;
+		position: relative;
+		text-align: center;
+		margin-top: 40px !important;
+		margin-left: 0;
+		width: 300px;
+		margin: auto;
 	}
-
-	#skills {
-		font-size: 12px;
-		top: 30px;
-    	left: 30px;
-	}
-
-	#projects {
-		width: 100%;
-	}
-
-	.navbar-brand{
-		font-size: 20px !important;
-	}
-
-	#contactInfoTitle{
-		font-size: 30px;
-	}
-
-	.contactInfoText{
-		font-size: 20px;
-	}
-}
-
-@media (min-width: 570px) and (max-width: 991px) {
-	#name {
-		font-size: 100px;
-		margin-left: 7%;
-		margin-top: 75px;
-    }
-
-   #timeline {
-	   width: 500px;
-	   height: 909px;
-	   margin-left: 7%;
-	}
-
 	#code-editor {
-		width: 500px;
-		height: 333px;
+		width: 250px;
+		height: 166px;
 	}
-	#skillsContainer {
-		margin-left: 7%;
-		margin-top: 100px;
-	}
-
 	#skills {
-		font-size: 15px;
+		position: absolute;
+		top: 25px;
+		left: 50px;
+		font-size: 8px;
+		font-family: monospace;
+		display: inline-block; 
+		text-align: left;
 	}
-
+	.navigation-link{
+		font-weight: bold;
+		font-size: 18px !important;
+	}
 	#projects {
-		width: 100%;
+		width: 85%;
 	}
-
-	.navbar-brand{
-		font-size: 25px !important;
-	}
-
-	#contactInfoTitle{
-		font-size: 30px;
-	}
-
-	.contactInfoText{
-		font-size: 20px;
-	}
-}
-
-@media (min-width: 992px) and (max-width: 1200px){
-	#name {
-		font-size: 115px;
-		margin-left: 15%;
-		margin-top: 75px;
-    }
-
-   #timeline {
-	   width: 550px;
-	   height: 1000px;
-	   margin-left: 15%;
-	}
-
-	#code-editor {
-		width: 600px;
-		height: 400px;
-	}
-	#skillsContainer {
-		margin-left: 15%;
-		margin-top: 75px;
-	}
-
-	#skills {
-		font-size: 20px;
-	}
-
-	#projects {
-		width: 100%;
-	}
-
-	.navbar-brand{
-		font-size: 25px !important;
-	}
-
-	#contactInfoTitle{
-		font-size: 30px;
-	}
-
-	.contactInfoText{
-		font-size: 20px;
+	.row{
+		margin-bottom: 40px;
 	}
 }
